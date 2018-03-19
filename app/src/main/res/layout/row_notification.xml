@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:elevation="5dp"
+        android:background="@color/white"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.1"
+                android:layout_margin="5dp"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/blank_resturant"
+                android:id="@+id/iv_notiImg"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+
+                <com.beachboxdeliveryapp.widgets.TextViewRegular
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|left"
+                    android:textSize="14sp"
+                    android:text="You have a new order to deliver. Order no 376"
+                    android:textStyle="bold"
+                    android:textColor="@color/black_text_color"
+                    android:id="@+id/tvNotiMsg"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <com.beachboxdeliveryapp.widgets.TextViewRegular
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5.5"
+                        android:gravity="center|left"
+                        android:text="Aug 08 12:30 PM"
+                        android:textSize="12sp"
+                        android:textColor="@color/grey_text_color"
+                        android:id="@+id/tvNotiDate"/>
+
+                    <com.beachboxdeliveryapp.widgets.TextViewRegular
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4.5"
+                        android:gravity="center|right"
+                        android:text="Delivery"
+                        android:paddingRight="10dp"
+                        android:textSize="12sp"
+                        android:textColor="@color/grey_text_color"
+                        android:id="@+id/tvNotitypeOrder"/>
+
+
+               </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+

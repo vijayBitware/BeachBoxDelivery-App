@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">BeachBox DeliveryApp</string>
+    <string name="google_map_key">AIzaSyAC3YSeq4oXl2Z1dLTtIUE5JYEYiMLCgUM</string>
+
+    <!--activity_chooser-->
+    <string name="delivery">Delivery</string>
+    <string name="pickUp">Pick Up</string>
+    <string name="signin">Sign in</string>
+    <string name="or">Or</string>
+    <string name="Create_an_account">Create an account</string>
+
+    <!--activity_signin-->
+    <string name="alreadyuser">New to Beach Box Enterprice LLC?</string>
+    <string name="orWithEmail">or with email</string>
+    <string name="orUseEmail">or use email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgotp">Forgot your password?</string>
+    <string name="confirmDelivery">Confirm Delivery and Send Receipt to Customer</string>
+
+    <string name="createAccount">Create Account</string>
+    <string name="alreadyHaveAccount">Already have an account?</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="filter">Filter</string>
+    <string name="Restaurant">Restaurants</string>
+    <string name="open">Open</string>
+
+    <!--profile-->
+    <string name="myAccount">My Account</string>
+    <string name="Edit">Edit</string>
+    <string name="payments">Payments</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+
+    <!--order-->
+    <string name="orders">Orders</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="history">History</string>
+    <string name="orderStatus">Order Status</string>
+
+    <string name="accept">Accepted</string>
+    <string name="ready">Ready</string>
+    <string name="delivering">Delivering</string>
+
+    <string name="Deliverer">User</string>
+    <string name="remove">Remove</string>
+    <string name="cartTitle">Cart</string>
+    <string name="addNote">Add a note(Ex.extra napkin)</string>
+    <string name="paymentInfo">Payment Information</string>
+    <string name="notification">Notification</string>
+
+
+    <string name="dumyAccountNumber">*************6557</string>
+    <string name="edit">Edit</string>
+
+    <string name="noTip">No Tip</string>
+    <string name="Custom">Custom</string>
+
+
+    <string name="orderSubtotal">Order Subtotal</string>
+    <string name="salesTax">Sales Tax</string>
+    <string name="tip">Tip</string>
+
+    <string name="tipValue">$6.59</string>
+    <string name="placeOrder">Place Your Order: $44.85</string>
+    <string name="cart">China Wok</string>
+
+    <!--facebook_app_id-->
+    <string name="facebook_app_id">1302140186546493</string>
+
+    <!--no connection msg-->
+    <string name="noNetworkMsg">Network Error! Please check your internet connection.</string>
+    <string name="noResponseMsg">Something went wrong! Please try again later.</string>
+    <string name="allFieldsAreCompulsary"> All the fields are mandatory</string>
+    <string name="pleaseEnterTheValidEmailid">Please enter the valid Emailid</string>
+    <string name="passConfirmPassShouldbeMatch"> Password and confirm password should be match.</string>
+    <string name="PleaseEnterTheValidMobileNo">Please enter the valid mobile no</string>
+
+    <string name="specialInstruction">Special Instructions</string>
+    <string name="map">Map</string>
+
+    <string name="no_internet">Please Check Internet Connection.!!</string>
+
+    <string name="Permissionheader"> Permission </string>
+    <string name="cameraPermission"> Beach Box Enterprise required camera permission</string>
+    <string name="callPermission"> Beach Box Enterprise required call permission</string>
+    <string name="locationStoragePermission"> BeachBox Enterprise required location and storage permission</string>
+    <string name="cameraSettingPermission"> Go to Permissions to Grant Camera permission</string>
+    <string name="grantpermission"> Grant</string>
+    <string name="cancelpermission"> Cancel</string>
+    <string name="beachBoxEnterprise">Beach Box Enterprise</string>
+    <string name="favRestoMsg">Please login first to favourite restaurant</string>
+    <string name="storagePermission">Beach Box Enterprise required location and storage permissions</string>
+
+    <string name="uodateTitle">Update Available</string>
+    <string name="updateMsg">BeachBox Enterprise update available, please update the app.</string>
+    <string name="updateOk">Update</string>
+    <string name="updateCancel">Cancel</string>
+
+</resources>

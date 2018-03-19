@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "772342534818",
+    "firebase_url": "https://beachbox-delivery.firebaseio.com",
+    "project_id": "beachbox-delivery",
+    "storage_bucket": "beachbox-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772342534818:android:16ad1b29634655e2",
+        "android_client_info": {
+          "package_name": "com.beachboxdeliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772342534818-np9uh6f63piqbq3fdigm0je1i4739pih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkaSAvcIrQYS0-q6oVvcUJ1IFcKYF5NNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

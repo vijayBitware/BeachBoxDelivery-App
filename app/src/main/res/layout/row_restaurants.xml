@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:elevation="5dp"
+        android:background="@color/white"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.1"
+                android:layout_margin="7dp"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/blank_resturant"
+                android:id="@+id/iv_restaurantImage"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <com.beachboxdeliveryapp.widgets.TextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:text="China Work"
+                    android:gravity="center|left"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black_text_color"
+                    android:id="@+id/tv_restaurantName"/>
+                <com.beachboxdeliveryapp.widgets.TextViewRegular
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:text="American Burger Shakes"
+                    android:gravity="center|left"
+                    android:textSize="12sp"
+                    android:textColor="@color/grey_text_color"
+                    android:singleLine="true"
+                    android:id="@+id/tv_restaurantDes"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <com.beachboxdeliveryapp.widgets.TextViewRegular
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.1"
+                        android:text="4.9"
+                        android:textColor="@color/grey_text_color"
+                        android:textStyle="bold"
+                        android:gravity="center|left"
+                        android:id="@+id/tv_rating"
+                        android:textSize="12sp"/>
+
+                    <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/rating"
+                        android:padding="3dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
